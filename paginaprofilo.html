@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <title>Pagina Profilo</title>
+</head>
+<body>
+    <header class="bg-dark">
+        <img src="Netflix-assets/assets/netflix_logo.png" alt="logo" width="100px">
+    </header>
+
+    <main class="bg-dark text-white p-5 d-flex justify-content-center">
+    <div id="spazioMain">
+        <h1 class="border-bottom">Edit Profile</h1>
+
+        <div class="conteiner-fluid d-flex border-bottom">
+            <div>
+                <img src="Netflix-assets/assets/slash-square-fill.svg" alt="img" width="100px">
+            </div>
+        <div class="container-fluid d-flex flex-column">
+            <div class="border-bottom">
+                <form action="">
+                    <input type="text" class="bg-secondary text-white border-0">
+                </form>
+                <p class="mt-3 mb-0">Language:</p>
+                <select name="Language" id="Language" class="bg-black text-white p-0 mb-3">
+                    <optgroup label="Language">
+                        <option value="it">Italiano</option>
+                        <option value="en">Inglese</option>
+                        <option value="sp">Spagnolo</option>
+                    </optgroup>
+                    </select>
+            </div>
+            <div class="border-bottom">
+                <p class="mt-3">Maturity Settings:</p>
+                <form action="">
+                    <input type="text" class="bg-secondary text-white border-0 mb-3">
+                </form>
+                <p>Show titles of all maturity ratings for this profile.</p>
+                <button type="submit" class="border bg-dark text-white pe-3 ps-3 mb-3">EDIT</button>
+            </div>
+            <div>
+                <h5 class="mt-3">Autoplay controls</h5>
+                <p id="pConferma"><input type="checkbox" id="conferma" name="conferma" required>Autoplay next episode in a series on all devices.</p>
+                <p id="pConferma"><input type="checkbox" id="conferma" name="conferma" required>Autoplay previews while brousing on all devices.</p> 
+            </div>
+    </div>
+    </div>
+            <div class="p-4">
+                <button class="border border-white bg-dark text-white pe-3 ps-3">SAVE</button>
+                <button class="border border-white bg-dark text-white pe-3 ps-3">CANCEL</button>
+                <button class="border border-white bg-dark text-white pe-3 ps-3">DELETE PROFILE</button>
+            </div>
+        
+
+    </div>    
+    </main>
+    
+</body>
+</html>
